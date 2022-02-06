@@ -1,5 +1,5 @@
 # phpblog
-Test task for PHP Developer (Mikhail Kost)
+Test task for PHP Developer (Mykhailo Kost)
 
 link: https://mikhailkostblog.cf/
 
