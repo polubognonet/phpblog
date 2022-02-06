@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  overflow: auto;
+  padding-top: 50px;
+}
+
+.header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background: white;
+  box-shadow: rgb(150 142 142 / 60%) 0px 5px 4px;
+}
+
+.headerWrap {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.websiteLogo {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.websiteLogo p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: 20px;
+}
+
+.headerNav {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerNav form {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminP {
+  height: 40%;
+  width: 43%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.loginbutton {
+  appearance: none;
+  background-color: #282828;
+  border: 2px solid #1A1A1A;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 5px;
+  line-height: normal;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.loginbutton:disabled {
+pointer-events: none;
+}
+
+.loginbutton:hover {
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.postsHeader{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postsHeader p {
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6c6c6c;
+}
+
+.actualPost {
+  margin: 2% 0;
+  padding: 5%;
+  background: white;
+  border-radius: 4px;
+}
+
+.postTitle {
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 28px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.postInfo {
+  padding: 10px 0;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.postShortDesc {
+  font-family: 'Montserrat', 'Roboto Slab', serif;
+  font-size: 13px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.postDate {
+  width: 50%;
+  display: flex;
+}
+
+.postBody {
+  padding: 20px 0;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid #cecece9e;
+}
