@@ -1,5 +1,12 @@
 # phpblog
 Test task for PHP Developer (Mikhail Kost)
 
-USER: root
+link: https://mikhailkostblog.cf/
+
+
+User: root 
+
 Password: root
+
+
+
